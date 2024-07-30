@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Video Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section><div class="container">
+        <div class="videoPlayer">
+            <video src="" controls></video>
+                <div class="videoProgressDuration"></div>
+                <div class="dot"></div>
+            </div>
+
+            <div class="controls">
+                <div class="leftControls">
+                    <div class="volume">
+                        <i class="fa-solid fa-volume-high"></i>
+                        <input type="range" value="100">
+                    </div>
+                </div>
+                <div class="centerControls">
+                    <div class="currentVideoDuration">
+                        <p>00:00</p>
+                    </div>
+
+                    <div class="reverseVideo">
+                        <i class="fa-solid fa-backward"></i>
+                    </div>
+
+                    <div class="playPauseBtn">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-pause"></i>
+                    </div>
+
+                    <div class="forwardVideo">
+                        <i class="fa-solid fa-forward"></i>
+                    </div>
+                    <div class="totalVideoDuration">
+                        <div class="duration"></div>
+                    </div>
+                </div>
+                <div class="rightControls">
+                    <div class="fullScrean">
+                        <i class="fa-solid fa-expand"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js" type=".js"></script>
+    <script src="node.js"></script>
+    </section>
+    </body>
+</html>
